@@ -54,10 +54,10 @@ function toggleMusic() {
     if (musicPlaying) {
         music.pause()
         musicPlaying = false
-        document.getElementById('music-toggle').textContent = '🔇'
+        document.getElementById('music-toggle').textContent = 'YAYYYY....🔇'
     } else {
         music.play()
         musicPlaying = true
-        document.getElementById('music-toggle').textContent = '🔊'
+        document.getElementById('music-toggle').textContent = 'YAAAAYYYYYY.....🔊'
     }
 }
